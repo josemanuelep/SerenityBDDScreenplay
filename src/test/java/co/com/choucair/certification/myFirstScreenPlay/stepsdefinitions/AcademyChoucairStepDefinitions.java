@@ -1,5 +1,6 @@
 package co.com.choucair.certification.myFirstScreenPlay.stepsdefinitions;
 
+import co.com.choucair.certification.myFirstScreenPlay.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,7 +15,7 @@ public class AcademyChoucairStepDefinitions {
     }
     @Given("^than Brandon wants to learn automation at the academy choucair$")
     public void than_Brandon_wants_to_learn_automation_at_the_academy_choucair() {
-
+        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage());
     }
 
     @When("^he search for teh course Recursos Automatización Bancolombia on the choucair academy platfrom$")
