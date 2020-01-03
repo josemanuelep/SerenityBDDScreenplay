@@ -23,6 +23,6 @@ public class SearchCourse implements Task {
     actor.attemptsTo(Click.on(SearchCoursePage.BTN_UNIVERSIDAD_CH),
             Enter.theValue(course).into(SearchCoursePage.INPUT_SEARCH_BOX),
             Click.on(SearchCoursePage.BTN_GO_SEARCH),
-            Click.on(SearchCoursePage.COURSE_MAIN_TITLE));
+            Click.on(SearchCoursePage.COURSE_SEARCH_TITLE));
     }
 }
