@@ -6,8 +6,13 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 
 public class SearchCourse implements Task {
+    private String course;
     public static SearchCourse searhCourse(String course) {
-        return Tasks.instrumented(SearchCourse.class);
+        return Tasks.instrumented(SearchCourse.class, course);
+    }
+
+    public SearchCourse(String course) {
+        this.course = course;
     }
 
     @Override
