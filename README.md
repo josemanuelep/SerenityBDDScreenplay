@@ -1,6 +1,6 @@
 # ScreenPlay Patter - Test Dev - SerenityDDB 💣
 
-Antes de iniciar con el proceso de creación de pruebas automatizadas bajo el Patrón Screenplay, es necesario verificar que se cuente con las herramientas instaladas adecuadamente, adicional se ha construido un proyecto base el cual servirá de modelo para la creación de los talleres de capacitación.
+Before starting with the process of creating automated tests under the Screenplay Pattern, it is necessary to verify that the tools are properly installed, an additional base project has been built which will serve as a model for the creation of the training workshops.
 
 - IntelliJ
 - JAVA 1.8 y JDK
